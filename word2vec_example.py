@@ -1,3 +1,10 @@
+# This file creates the bag-of-words matrix,
+#  then attempts a random forest predictor on the matrix
+#  getting an accuracy on the 20% hold out set of ~74.5%
+#
+# Then a word2vec model is fit to create "better" features,
+#  but only getting an accuracy on the 20% hold out set of ~71%
+#
 import numpy as np
 import random
 import nltk
